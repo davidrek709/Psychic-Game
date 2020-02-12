@@ -3,32 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Psychic Game </title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/reset.css">
+  <title>The Psychic Game</title>
 </head>
 
 <body>
 
-  <div>
-    <p id="directions"> The Psychic Game </p>
-    <br>
-    <p id="guess-text"> Guess what letter im thinking of </p>
-    <br>
-    <p id="win-text"> Wins: </p>
-    <br>
-    <p id="losses-text"> Losses: </p>
-    <br>
-    <p id="remaining-guesses"> Guesses left: </p>
-    <br>
-    <p id="guesses-made"> Your guesses so far: </p>
-  </div>
+  <h1>The Psychic Game</h1>
 
-  <script src="assets/javascript/game.js">
-    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+  <p>Guess what letter I'm thinking of</p>
 
-  
-  </script>
+  <p>Wins: <span id="wins">0</span></p>
+
+  <p>Losses: <span id="losses">0</span></p>
+
+  <p>Guesses Left: <span id="guesses-left"></span></p>
+
+  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
